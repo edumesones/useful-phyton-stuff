@@ -5,8 +5,7 @@ Created on Fri Jan 15 12:46:46 2021
 @author: egzlz
 """
 
-import os
-os.chdir(r"C:\Users\egzlz\OneDrive\Escritorio\MASTER\modulo2")
+
 text_file=open("mbox.txt","r")
 lines=text_file.read()
 import pandas as pd
